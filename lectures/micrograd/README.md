@@ -2,7 +2,8 @@
 uv init
 
 # install dependencies
-uv add jupyter matplotlib numpy
+uv add graphviz jupyter matplotlib numpy
+sudo apt install graphviz
 
 # run notebooks
 uv run jupyter lab
